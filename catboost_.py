@@ -12,7 +12,6 @@ from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import cross_val_score
-import xgboost as xgb
 from catboost import CatBoostRegressor
 
 ##导入测试集，训练集，和所有训练集
